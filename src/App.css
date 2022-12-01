@@ -1,38 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar {
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  color: white !important;
+  background: #00afd7;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.logo {
+  width: 200px;
+  height: 76px;
+}
+.land {
+  background-image: url(./images/mountaines.jpg);
+  height: 800px;
+  width: 100%;
+  position: relative;
+}
+.land h3 {
+  position: absolute;
+  color: white;
+  bottom: 50%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translateX(-50%);
+  font-family: "Raleway", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.land p {
+  position: absolute;
+  color: white;
+  bottom: 20%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translateX(-50%);
+  font-family: "Raleway", sans-serif;
+  font-weight: 300;
+}
+
+.land span {
+  color: rgb(250, 169, 18);
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.button {
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  font-size: 3rem;
+  transform: translateX(-50%);
+}
+
+span {
+  color: rgb(250, 169, 18);
+  font-weight: bold;
+}
+i {
+  border: 1px solid rgb(250, 169, 18);
+  border-radius: 50%;
+  padding: 10px;
+  color: rgb(250, 169, 18);
+}
+
+i:hover {
+  color: white;
+  background-color: rgb(250, 169, 18);
+}
+
+.suit {
+  width: 80%;
+  height: 100%;
+}
+
+.image {
+  position: relative;
+}
+
+.sub {
+  width: 100%;
+  height: 100%;
+}
+
+.memb {
+  width: 100%;
+  height: 100%;
+}
+
+label {
+  color: #00afd7;
+  font-weight: 500;
+}
+
+.sine {
+  border: 1px solid black;
+  /* background-color: rgb(250, 169, 18); */
+  padding: 5px;
+}
+
+.stats {
+  background-color: rgb(250, 169, 18);
+  height: 400px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-content: center;
+}
+/* .skill {
+  height: 150px;
+  width: 150px;
+  position: relative;
+  left: 19%;
+} */
+
+.trips span {
+  color: #00afd7;
+  font-weight: 700;
 }
 
-.App-link {
-  color: #61dafb;
+.dest {
+  font-size: 4rem !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.dest span {
+  color: #00afd7;
+  font-weight: 700;
+}
+
+.trips span {
+  color: #00afd7;
+  font-weight: 700;
+  font-size: 4rem !important;
+}
+
+.trav span {
+  color: #00afd7;
+  font-weight: 700;
+  font-size: 4rem !important;
+}
+
+.card-text {
+  color: red;
+}
+
+.title {
+  background-color: rgb(250, 169, 18);
+}
+
+.footer {
+  background-color: darkslategrey;
+  height: 100px;
 }

@@ -16,7 +16,7 @@ function App() {
     <React.Fragment>
       <NavBar />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route path="travelform" element={<TravelForm />} />
         <Route path="Login" element={<Login />} />
         <Route path="Sineup" element={<Sineup />} />

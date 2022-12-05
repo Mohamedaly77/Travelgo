@@ -3,6 +3,7 @@ import Landing from "../services/landing";
 import Services from "../services/Services";
 import Stats from "../services/stats";
 import Contact from "./contact";
+import React from "react";
 
 function Home(props) {
   return (

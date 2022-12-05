@@ -11,7 +11,7 @@ function Luxor(props) {
       </h1>
 
       <div className="container">
-        <img src={egypt1} className="w-100"></img>
+        <img src={egypt1} className="w-100" alt=""></img>
 
         <h2 className="mt-3 text-uppercase">Luxor where history begins</h2>
         <p className="text-black-50 lh-lg">

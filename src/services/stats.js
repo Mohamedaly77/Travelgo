@@ -17,7 +17,7 @@ function Stats(props) {
   };
 
   useEffect(() => {
-    if (dest == 85) {
+    if (dest === 85) {
       clearInterval();
     } else {
       const interval = setInterval(ticka, 20);
@@ -32,7 +32,7 @@ function Stats(props) {
   };
 
   useEffect(() => {
-    if (trav == 3) {
+    if (trav === 3) {
       clearInterval();
     } else {
       const interval = setInterval(tick2, 1000);

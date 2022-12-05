@@ -10,7 +10,7 @@ function NewYork(props) {
       </h1>
 
       <div className="container">
-        <img className="w-100" src={america}></img>
+        <img className="w-100" src={america} alt=""></img>
         <h2 className="mt-3 text-uppercase">New york the worlds capital</h2>
         <p text-black-50 lh-lg>
           New York is the most ethnically diverse, religiously varied,

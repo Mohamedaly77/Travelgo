@@ -24,7 +24,7 @@ function Sineup(props) {
           </form>
         </div>
         <div className=" image col-md-6 mt-3">
-          <img className="memb" src={membership}></img>
+          <img className="memb" src={membership} alt=""></img>
         </div>
       </div>
     </div>

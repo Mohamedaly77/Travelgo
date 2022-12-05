@@ -9,7 +9,7 @@ function Greece(props) {
       <h1 className="text-center text-capitalize mt-3 mb-3">Acropolis</h1>
 
       <div className="container">
-        <img src={acropolis} className="w-100"></img>
+        <img src={acropolis} className="w-100" alt=""></img>
         <h2 className="mt-3 text-uppercase">
           Athens , Explore more greek history
         </h2>

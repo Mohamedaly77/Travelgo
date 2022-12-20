@@ -4,12 +4,12 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import NavBar from "./component/navbar";
 import Home from "./component/home";
-import TravelForm from "./component/travelform";
 import Login from "./component/login";
 import Sineup from "./component/Sineup";
 import Luxor from "./component/Luxor";
 import NewYork from "./component/NewYork";
 import Greece from "./component/Greece";
+import TravelForm from "./component/TravelForm";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="travelform" element={<TravelForm />} />
+        <Route path="TravelForm" element={<TravelForm />} />
         <Route path="Login" element={<Login />} />
         <Route path="Sineup" element={<Sineup />} />
         <Route path="Luxor" element={<Luxor />} />

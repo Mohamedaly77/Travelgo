@@ -9,7 +9,7 @@ function Landing(props) {
         <h3 className="fw-normal text-center text-white-70 text-uppercase">
           Explore the world with <span>US</span>
         </h3>
-        <p className="text-center text-black-50 fs-2 text-uppercase">
+        <p className="fadein  text-center text-black-50 fs-2 text-uppercase">
           A new sightseeing <span>experience</span> is waiting for you
         </p>
 

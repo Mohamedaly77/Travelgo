@@ -12,7 +12,7 @@ function Services(props) {
         <div className="row text-center m-3">
           <div className="col-md-6 col-lg-3">
             <div className="feat">
-              <i class="fa-solid fa-signs-post fa-2x"></i>
+              <i className="fa-solid fa-signs-post fa-2x"></i>
               <h3 className="fs-2 fw-normal"> Mutiple Choices</h3>
               <p className="text-black-50">
                 More choice and flexibility for your dream holiday

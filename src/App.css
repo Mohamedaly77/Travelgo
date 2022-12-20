@@ -45,6 +45,19 @@
   font-weight: 300;
 }
 
+.fadein {
+  animation: fadeIn 5s;
+}
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .land span {
   color: rgb(250, 169, 18);
   font-family: "Raleway", sans-serif;

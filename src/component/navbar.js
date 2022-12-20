@@ -26,9 +26,7 @@ class NavBar extends Component {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav ms-auto">
-              <NavLink className="nav-link" to="/">
-                Home
-              </NavLink>
+              <NavLink className="nav-link" to="/"></NavLink>
 
               <NavLink className="nav-link" to="/Login">
                 Login

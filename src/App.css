@@ -169,3 +169,32 @@ label {
   background-color: darkslategrey;
   height: 100px;
 }
+
+.contact .face {
+  background-color: #00afd7;
+  color: #eeeeee;
+  border: none;
+}
+
+.contact .insta {
+  background-color: #405de6;
+  color: white;
+  border: none;
+}
+
+.contact .twitter {
+  background-color: #00afd7;
+  color: white;
+  border: none;
+}
+
+.contact .youtube {
+  background-color: #ff0000;
+  border: none;
+  color: #282828;
+}
+
+.contact i:hover {
+  color: white;
+  background-color: rgb(250, 169, 18);
+}

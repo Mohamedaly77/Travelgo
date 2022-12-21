@@ -10,7 +10,7 @@ function Home(props) {
     <div>
       <Landing />
       <Services />
-      <div className="title mb-0">
+      <div className="title">
         <h1 className=" text-center text-uppercase p-3  ">
           Still more to come ...
         </h1>

@@ -9,16 +9,16 @@ function Contact(props) {
         <div className="row ">
           <div className="col-md-6">
             <div className="d-flex">
-              <i class="fa-regular fa-envelope "></i>
+              <i className="fa-regular fa-envelope "></i>
               <p className="m-2">Travelogo@mail.com</p>
             </div>
 
             <div className="d-flex mt-2">
-              <i class="fa-solid fa-phone"></i>
+              <i className="fa-solid fa-phone"></i>
               <p className="m-2"> + 202 7777 555</p>
             </div>
             <div className="d-flex mt-2">
-              <i class="fa-brands fa-whatsapp"></i>
+              <i className="fa-brands fa-whatsapp"></i>
               <p className="m-2"> Whatsapp</p>
             </div>
           </div>
@@ -27,10 +27,10 @@ function Contact(props) {
             <div className="mt-3">
               <div>
                 <h4 className="ms-4">Follow us </h4>
-                <i class="fa-brands fa-facebook m-1"></i>
-                <i class="fa-brands fa-instagram m-1"></i>
-                <i class="fa-brands fa-twitter m-1"></i>
-                <i class="fa-brands fa-youtube m-1"></i>
+                <i className="fa-brands fa-facebook m-1"></i>
+                <i className="fa-brands fa-instagram m-1"></i>
+                <i className="fa-brands fa-twitter m-1"></i>
+                <i className="fa-brands fa-youtube m-1"></i>
               </div>
             </div>
           </div>

@@ -10,15 +10,15 @@ function Holiday(props) {
     <div className="mt-0">
       <div
         id="carouselExampleCaptions"
-        class="carousel slide"
+        className="carousel slide"
         data-bs-ride="carousel"
       >
-        <div class="carousel-indicators">
+        <div className="carousel-indicators">
           <button
             type="button"
             data-bs-target="#carouselExampleCaptions"
             data-bs-slide-to="0"
-            class="active"
+            className="active"
             aria-current="true"
             aria-label="Slide 1"
           ></button>
@@ -52,7 +52,7 @@ function Holiday(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={newyork} class="d-block w-100" alt="..." />
+            <img src={newyork} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5 className="fs-2">New Yourk</h5>
               <p className="fs-3 text-uppercase">
@@ -67,7 +67,7 @@ function Holiday(props) {
             </div>
           </div>
           <div className="carousel-item">
-            <img src={greece} class="d-block w-100" alt="..." />
+            <img src={greece} className="d-block w-100" alt="..." />
             <div className="carousel-caption d-none d-md-block">
               <h5 className="fs-2">Greece</h5>
               <p className="fs-3 text-uppercase">

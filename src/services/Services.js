@@ -21,7 +21,7 @@ function Services(props) {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="feat">
-              <i class="fa-solid fa-euro-sign  fa-2x"></i>
+              <i className="fa-solid fa-euro-sign  fa-2x"></i>
               <h3 className="fs-2 fw-normal"> Low deposits</h3>
               <p className="text-black-50">
                 Secure your next holiday from $100
@@ -39,7 +39,7 @@ function Services(props) {
           </div>
           <div className="col-md-6 col-lg-3">
             <div className="feat">
-              <i class="fa-solid fa-check  fa-2x"></i>
+              <i className="fa-solid fa-check  fa-2x"></i>
               <h3 className="fs-2 fw-normal"> Price match</h3>
               <p className="text-black-50">
                 Know you are getting the best holiday deal
@@ -78,7 +78,7 @@ function Services(props) {
             <div className="card">
               <img
                 src="https://cdn.pixabay.com/photo/2014/02/09/05/45/maldives-262523__340.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
               <div className="card-body">
@@ -100,10 +100,10 @@ function Services(props) {
             </div>
           </div>
           <div className=" col-md-6 col-lg-4">
-            <div class="card">
+            <div className="card">
               <img
                 src="https://cdn.pixabay.com/photo/2020/09/16/04/02/skyline-5575251__340.jpg"
-                class="card-img-top"
+                className="card-img-top"
                 alt="..."
               />
               <div className="card-body">

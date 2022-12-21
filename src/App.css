@@ -46,15 +46,15 @@
 }
 
 .fadein {
-  animation: fadeIn 5s;
+  animation: fadeIn 2s;
 }
 
-@keyframes fadein {
+@keyframes fadeIn {
   0% {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 2;
   }
 }
 
@@ -120,19 +120,15 @@ label {
 }
 
 .stats {
-  background-color: rgb(250, 169, 18);
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-content: center;
+  background-color: #25be79;
 }
-/* .skill {
-  height: 150px;
-  width: 150px;
-  position: relative;
-  left: 19%;
-} */
+
+.stats span {
+  font-size: 4rem;
+}
+.stats p {
+  font-size: 2rem;
+}
 
 .trips span {
   color: #00afd7;
@@ -166,6 +162,7 @@ label {
 
 .title {
   background-color: rgb(250, 169, 18);
+  margin-bottom: -16px;
 }
 
 .footer {

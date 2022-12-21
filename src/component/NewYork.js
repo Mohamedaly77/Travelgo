@@ -12,7 +12,7 @@ function NewYork(props) {
       <div className="container">
         <img className="w-100" src={america} alt=""></img>
         <h2 className="mt-3 text-uppercase">New york the worlds capital</h2>
-        <p text-black-50 lh-lg>
+        <p className=" text-black-50 lh-lg">
           New York is the most ethnically diverse, religiously varied,
           commercially driven, famously congested, and, in the eyes of many, the
           most attractive urban centre in the country. No other city has

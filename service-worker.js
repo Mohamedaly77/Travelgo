@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/Travelgo/precache-manifest.48712ed26bdadb06d832223a9568449e.js"
+  "/Travelgo/precache-manifest.3f21b4e921e75b69e1627c09242c8cd8.js"
 );
 
 workbox.clientsClaim();

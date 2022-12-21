@@ -1,27 +1,27 @@
 self.__precacheManifest = [
   {
-    "revision": "05a25ac01a48363317e3",
-    "url": "/Travelgo/static/css/main.651332ab.chunk.css"
+    "revision": "abea4c187c9b9bb5dfda",
+    "url": "/Travelgo/static/css/main.784334c1.chunk.css"
   },
   {
-    "revision": "05a25ac01a48363317e3",
-    "url": "/Travelgo/static/js/main.2b54aa5e.chunk.js"
+    "revision": "abea4c187c9b9bb5dfda",
+    "url": "/Travelgo/static/js/main.23d3b641.chunk.js"
   },
   {
-    "revision": "2ab59f8db3dd36d318db",
-    "url": "/Travelgo/static/js/runtime~main.fc798f4c.js"
+    "revision": "48af6df54ed8a4c3eaa6",
+    "url": "/Travelgo/static/js/runtime~main.9ed8518d.js"
   },
   {
-    "revision": "43e919fd9ef5747adcb3",
+    "revision": "e250fbebd2445dedb0c7",
     "url": "/Travelgo/static/css/2.f822bd47.chunk.css"
   },
   {
-    "revision": "43e919fd9ef5747adcb3",
-    "url": "/Travelgo/static/js/2.0aeaf38f.chunk.js"
+    "revision": "e250fbebd2445dedb0c7",
+    "url": "/Travelgo/static/js/2.8cda95e8.chunk.js"
   },
   {
-    "revision": "8163f13eb499f5c0d529",
-    "url": "/Travelgo/static/js/3.8d74271d.chunk.js"
+    "revision": "130fc58aa77c41bb9893",
+    "url": "/Travelgo/static/js/3.60a96eb8.chunk.js"
   },
   {
     "revision": "7d9758b8bafaa4987024955fe85edad2",
@@ -64,20 +64,20 @@ self.__precacheManifest = [
     "url": "/Travelgo/static/media/suitcase.0efccc2f.png"
   },
   {
-    "revision": "fee66e712a8a08eef5805a46892932ad",
-    "url": "/Travelgo/static/media/fontawesome-webfont.fee66e71.woff"
-  },
-  {
     "revision": "674f50d287a8c48dc19ba404d20fe713",
     "url": "/Travelgo/static/media/fontawesome-webfont.674f50d2.eot"
   },
   {
-    "revision": "af7ae505a9eed503f8b8e6982036873e",
-    "url": "/Travelgo/static/media/fontawesome-webfont.af7ae505.woff2"
-  },
-  {
     "revision": "b06871f281fee6b241d60582ae9369b9",
     "url": "/Travelgo/static/media/fontawesome-webfont.b06871f2.ttf"
+  },
+  {
+    "revision": "fee66e712a8a08eef5805a46892932ad",
+    "url": "/Travelgo/static/media/fontawesome-webfont.fee66e71.woff"
+  },
+  {
+    "revision": "af7ae505a9eed503f8b8e6982036873e",
+    "url": "/Travelgo/static/media/fontawesome-webfont.af7ae505.woff2"
   },
   {
     "revision": "912ec66d7572ff821749319396470bde",
@@ -88,7 +88,7 @@ self.__precacheManifest = [
     "url": "/Travelgo/static/media/mountaines.72d7a80a.jpg"
   },
   {
-    "revision": "6879eb103bfc047dd3146c045c7e6db1",
+    "revision": "55965801e623590cc34693240ea67c79",
     "url": "/Travelgo/index.html"
   }
 ];

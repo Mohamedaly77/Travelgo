@@ -1,13 +1,8 @@
-import { useState, useEffect } from "react";
+import CountUp from "react-countup";
+
 import React from "react";
 
 function Stats(props) {
-  const [count, setcount] = useState(0);
-
-  const [dest, setDest] = useState(0);
-
-  const [trav, setTrav] = useState(0);
-
   return (
     <div className="stats">
       <div className=" container">
@@ -15,7 +10,7 @@ function Stats(props) {
           <div className="col-md-6 , col-lg-4">
             <div className="Number1" />
             <span className="align-center d-flex justify-content-center">
-              85
+              <CountUp end={85} />
             </span>
             <p className="text-white d-flex justify-content-center">
               Destinations
@@ -23,14 +18,18 @@ function Stats(props) {
           </div>
           <div className="col-md-6 , col-lg-4">
             <div className="Number2" />
-            <span className=" d-flex justify-content-center">96</span>
+            <span className=" d-flex justify-content-center">
+              <CountUp end={96} />{" "}
+            </span>
             <p className="text-white  d-flex justify-content-center">
               Trips/week
             </p>
           </div>
           <div className="col-md-6 , col-lg-4">
             <div className="Number3" />
-            <span className="d-flex justify-content-center">3M</span>
+            <span className="d-flex justify-content-center">
+              <CountUp end={3000000} />
+            </span>
             <p className="text-white d-flex justify-content-center">
               Travellers a year
             </p>

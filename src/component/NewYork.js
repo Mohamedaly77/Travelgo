@@ -29,7 +29,7 @@ function NewYork(props) {
           symbol is the Statue of Liberty, but the metropolis is itself an icon,
           the arena in which Emma Lazarus’s “tempest-tost” people of every
           nation are transformed into Americans—and if they remain in the city,
-          they become New Yorkers.
+          they become New Yorkers. welcome to new yorkers!
         </p>
 
         <button
